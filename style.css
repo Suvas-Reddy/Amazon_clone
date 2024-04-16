@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+    
+}
+nav{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.logo{
+    display: flex;
+    height: 60px;
+    width: 116px;
+    padding: 14px 0px 10px 2px;
+    margin: 0px 2px 0px 1px;
+    align-items: center;
+}
+.logo-img{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 60px;
+    width: 120px;
+}
+.logo-loc{
+    height: 60px;
+    line-height: 55px;
+    font-size: 13.5px;
+}
+
+
+.address{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 220px;
+    margin: 5px 3px 5px 3px;
+    padding: 4px 10px 9px 10px;
+}
+.address-icon{
+    margin-top: 16px;
+    
+}
+.address-loc{
+    width: 200px;
+    height: 30px;
+
+}
+.address-loc-deliver {
+    font-size: 12px;
+    width: 200px;
+    height: 14px;
+    color: #cccccc;
+    padding: 0px;
+    margin: 0px;
+}
+.address-loc-country {
+    font-size: 14px;
+    width: 200px;
+    height: 16px;
+    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.search{
+    display: flex;
+    height: 60px;
+    width: 690px;
+    padding: 10px 4px 10px 3px;
+    
+}
+.search-bar{
+    display: flex;
+    height: 40px;
+    width: 690px;
+    background-color: #febd69;
+    border-radius: 6px;
+    
+}
+.search-bar-left
+{
+    display: flex;
+    background-color: gainsboro;
+    height: 40px;
+    width: 52px;
+    text-align: center;
+    border-radius: 6px 0px 0px 6px;
+}
+.search-bar-mid{
+    display: flex;
+    height: 40px;
+    width: 593px;
+    font-size: 17px;
+}
+.search-bar-right{
+    display: flex;
+    height: 40px;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.country{
+    display: flex;
+    align-items: center;
+    padding: 9px;
+
+}
+.country p{
+    font-size: 14px;
+    padding-left: 5px;
+}
+.flag{
+    display: flex;;
+    background-color: #ffffff;
+    height: 14px;
+    width: 18px;
+}
+.dropdown{
+    line-height: 100px;
+}
+.signin,.returnsandorders{
+    align-items: center;
+    padding: 10px 9px 10px 9px;
+    margin-left:2px;
+}
+.signin-l2{
+    display: flex;
+}
+.text1{
+    font-size: 12px;
+    font-weight: 400;
+}
+.text2{
+    font-size: 14px;
+    font-weight: 700;
+}
+.cart{
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    align-items: center;
+}
+.panel {
+    padding-left: 10px;
+    display: flex;
+    background-color: #232f3e;
+    height: 39px;
+    color:#ffffff;
+    font-size: 14px;
+    align-items: center;
+    
+}
+.panel div{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.panel div p{
+    padding: 8px 9px;
+    margin:0px 0px 5px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.content{
+    background-color: #cccccc;
+}
+.header_slider ul{
+    display: flex;
+    overflow-y: hidden;
+    
+}
+.header_img{
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom,#000000 50%, transparent 100%);
+}
+.header_slider a{
+    position:absolute;
+    top: 20%;
+    z-index: 1;
+    padding: 5vh 1vw;
+    background: #ffffff4f;
+    color:#0000007b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+.control_next{
+    right: 0;
+}
+.box_row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+    margin:20px 30px;
+}
+.box_col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 20px;
+    background: #ffffff;
+    max-width: 24%;
+    min-width: 200px;   
+    z-index: 1;
+}
+.box_col h2{
+    text-decoration: none;
+    font-size: 21px;
+    color: #0f1111;
+    font-weight: 700;
+}
+.box_col a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #007185;
+    font-weight: 500;
+}
+.header_box{
+    margin-top: -20vw;
+}
+.product_slider{
+    background: #ffffff;
+    margin: 0 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.product_slider .products{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    margin-top: 10px;
+}
+.product_slider .products img{
+    max-width: 200px;
+    max-height: 200;
+}
