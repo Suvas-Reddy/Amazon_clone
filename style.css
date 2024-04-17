@@ -251,3 +251,17 @@ nav{
     max-width: 200px;
     max-height: 200;
 }
+
+.product_slider .products::-webkit-scrollbar{
+    display:none;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color:#131a22 ;
+    color: #ffffff;
+    padding: 20px 60px;
+
+}
