@@ -13,6 +13,13 @@ nav{
     color: white;
     display: flex;
     justify-content: space-evenly;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.navbar{
+    height: 60px;
 }
 
 
